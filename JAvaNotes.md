@@ -1,1 +1,157 @@
 
+![image](https://user-images.githubusercontent.com/90038032/211867484-2f442a87-8be9-4f5f-8178-79a558c3adbf.png)
+
+OBJECT CREATION:
+
+ ![image](https://user-images.githubusercontent.com/90038032/211867175-f55c6ecd-9663-440a-83fb-02272b9c3b36.png)
+ 
+ ![image](https://user-images.githubusercontent.com/90038032/211867577-1b4e4520-9254-44a7-944c-d38df2c611e4.png)
+
+ https://github.com/ragaPriya224/B1_tyconsult/blob/master/class_object_6YearOld.pdf
+
+
+**-------------------------------------------------------------------------------------------------------------------------**
+
+INHERITANCE:
+
+![image](https://user-images.githubusercontent.com/90038032/211867026-8f5f5c29-8311-408e-8b89-539be09bb646.png)
+
+![AC](https://user-images.githubusercontent.com/90038032/211872972-e0b52711-eb9e-41a9-b178-8ccd700dea9c.jpg)
+
+ https://github.com/ragaPriya224/B1_tyconsult/blob/master/oops_inheritance_realifeExample%20(3).pdf
+
+ https://github.com/ragaPriya224/B1_tyconsult/blob/master/why_we_use_inheritance_realcode.pdf
+
+
+
+**-------------------------------------------------------------------------------------------------------------------------**
+POLYMORPHISM
+
+
+![image](https://user-images.githubusercontent.com/90038032/211873978-c698f564-9a77-485e-98bd-d94a410db2b2.png)
+
+
+![image](https://user-images.githubusercontent.com/90038032/211873855-b039989f-ea76-43b5-b7fe-b29d81d69a07.png)
+
+
+![image](https://user-images.githubusercontent.com/90038032/211873336-fbe375f7-005d-4960-b7d4-b15605f8525c.png)
+
+**-------------------------------------------------------------------------------------------------------------------------**
+
+TASKS:
+create a class named Food with some variables and methods and then  create a object in same class, try to access these methods and variables
+
+create a class called Pizza and create a object for food class and try to acces the variables and methods in it. 
+
+--------------------------------------------------------------------------------------------------------------------------
+1. create a class named dog and have any fields like colour, age , cost anything.. and try creating atleast 2- 3 objects with name like husky, dalmation, anything
+ 
+2.try to create a default constructor and a parameterised constructor and use it in your class
+
+----------------------------------------------------------------------------------------------------------------------
+TRY WRITING CODE TO ACHIEVE SINGLE , MULTI LEVEL, HIERARCHICAL INHERITANCE
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+![image](https://user-images.githubusercontent.com/90038032/212374830-75616a6f-d6e7-4ea9-9f46-8c79d0068f8a.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212374899-4a231964-3497-46f1-b3b6-4c3509bf2599.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212374954-0bfe4204-40c6-4085-b248-e95ea3a91a5c.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375026-f6de7700-54d1-474a-a108-98ca2e4bb19e.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375078-3ac9a007-9f9d-4b7d-9d2a-1111c490d04d.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375141-8ebbedb4-70a1-4325-93bd-0426549b1849.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375171-ed7b40b8-7dd0-4783-a6e5-50853df88aae.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375228-4350c67e-485c-499e-95b3-788ac29f4369.png)
+
+![image](https://user-images.githubusercontent.com/90038032/212375317-8307bbc0-d893-42c7-ba45-1c607e5c8504.png)
+
+
+
+
+
+
+REFER:
+https://github.com/ragaPriya224/B1_tyconsult/blob/master/Overloading%207%20different%20case%20study.pdf
+
+https://www.w3schools.com/java/java_polymorphism.asp or https://www.programiz.com/java-programming/polymorphism
+
+https://www.geeksforgeeks.org/output-java-program-set-25-polymorphism/
+
+tasks:
+
+overload
+
+Create a class to print the area of a square and a rectangle. The class has two methods with the same name but different number of parameters. The method for printing area of rectangle has two parameters which are length and breadth respetively while the other method for printing area of square has one parameter which is side of square.
+ 
+ tasks: override
+ 
+ ![image](https://user-images.githubusercontent.com/90038032/212380484-3d49fed7-1f67-43ba-b5d9-ca2580a81f1d.png)
+  
+![image](https://user-images.githubusercontent.com/90038032/212380642-032ee95e-9296-4626-bfa5-b5b9376e4de4.png)
+
+![image](https://user-images.githubusercontent.com/90038032/213238935-2b4a660c-0660-4b0f-8fbd-a34d9ceda9b0.png)
+
+-------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/213239308-66e5b3e5-f30c-482e-a4b0-1d13e0534ae5.png)
+
+-------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/213239720-90b62cd9-3ffd-4acc-8617-35b492c3e760.png)
+
+-------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/213240198-03c2c9e2-4a92-4239-ab34-08312e9a655a.png)
+
+-------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/213240373-456c195a-e9aa-431e-bb3b-6ca1a68272ad.png)
+
+---------------------------------------------------------------------------------------------------------------
+https://www.w3schools.com/java/ref_keyword_static.asp
+
+---------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/213516216-4683f61a-f079-4d8e-8c29-55e1ee870960.png)
+
+![image](https://user-images.githubusercontent.com/90038032/213516265-a4ea3766-dba3-4154-9340-d4df99cbff2d.png)
+
+https://www.w3schools.com/java/java_abstract.asp
+
+https://www.w3schools.com/java/java_interface.asp
+
+
+TASKS:
+
+Create an abstract class 'Bank' with an abstract method 'getBalance'. $100, $150 and $200 are deposited in banks A, B and C respectively. 'BankA', 'BankB' and 'BankC' are subclasses of class 'Bank', each having a method named 'getBalance'. Call this method by creating an object of each of the three classes.
+
+Create an abstract class 'Animals' with two abstract methods 'cats' and 'dogs'. Now create a class 'Cats' with a method 'cats' which prints "Cats meow" and a class 'Dogs' with a method 'dogs' which prints "Dogs bark", both inheriting the class 'Animals'. Now create an object for each of the subclasses and call their respective methods.
+
+
+
+//interf1  extends  interf2
+
+//Class1  implements Interf1
+
+//class Class1  extends Class2
+
+//Class1 extends Class2  implements Interf1,Interf2
+
+
+class B extends A{}
+
+
+class A   = parent class, base class, super lass ->. class wose feature are inherited
+|
+ class B	= child class, sub class , derived class, extended class  class that inherites other class
+ 
+ https://www.programiz.com/java-programming/super-keyword
+ 
+ TASKS:
+ 
+ create 2 classes, that is enough
+ 
+ ![image](https://user-images.githubusercontent.com/90038032/213775029-0ffef740-a18c-49b0-a923-cfcfbe47a1e6.png)
+
