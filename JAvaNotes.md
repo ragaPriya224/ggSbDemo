@@ -7,8 +7,7 @@ OBJECT CREATION:
  
  ![image](https://user-images.githubusercontent.com/90038032/211867577-1b4e4520-9254-44a7-944c-d38df2c611e4.png)
 
- https://github.com/ragaPriya224/B1_tyconsult/blob/master/class_object_6YearOld.pdf
-
+https://github.com/ragaPriya224/ggSbDemo/blob/master/class_object_6YearOld.pdf
 
 **-------------------------------------------------------------------------------------------------------------------------**
 
@@ -18,10 +17,9 @@ INHERITANCE:
 
 ![AC](https://user-images.githubusercontent.com/90038032/211872972-e0b52711-eb9e-41a9-b178-8ccd700dea9c.jpg)
 
- https://github.com/ragaPriya224/B1_tyconsult/blob/master/oops_inheritance_realifeExample%20(3).pdf
+https://github.com/ragaPriya224/ggSbDemo/blob/master/oops_inheritance_realifeExample.pdf
 
- https://github.com/ragaPriya224/B1_tyconsult/blob/master/why_we_use_inheritance_realcode.pdf
-
+https://github.com/ragaPriya224/ggSbDemo/blob/master/why_we_use_inheritance_realcode.pdf
 
 
 **-------------------------------------------------------------------------------------------------------------------------**
@@ -78,7 +76,7 @@ TRY WRITING CODE TO ACHIEVE SINGLE , MULTI LEVEL, HIERARCHICAL INHERITANCE
 
 
 REFER:
-https://github.com/ragaPriya224/B1_tyconsult/blob/master/Overloading%207%20different%20case%20study.pdf
+https://github.com/ragaPriya224/ggSbDemo/blob/master/Overloading%207%20different%20case%20study.pdf
 
 https://www.w3schools.com/java/java_polymorphism.asp or https://www.programiz.com/java-programming/polymorphism
 
