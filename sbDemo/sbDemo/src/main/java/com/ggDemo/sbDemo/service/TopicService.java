@@ -31,4 +31,9 @@ public class TopicService {
 		return topic;
 	}
 
+	public void addTopic(Topic topic) {
+		topicList.add(topic);
+		
+	}
+
 }
