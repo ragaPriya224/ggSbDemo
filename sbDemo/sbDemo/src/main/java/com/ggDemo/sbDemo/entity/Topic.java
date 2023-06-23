@@ -9,7 +9,10 @@ public class Topic {
 
 	private int age;
 	
-	
+	public Topic() {
+		
+	}
+
 
 	public Topic(String id, String name, String description, int age) {
 		this.id = id;
