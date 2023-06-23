@@ -11,23 +11,24 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ggDemo.sbDemo.entity.Course;
 import com.ggDemo.sbDemo.entity.Topic;
-import com.ggDemo.sbDemo.service.TopicService;
+import com.ggDemo.sbDemo.service.CourseService;
 
 @RestController
-public class TopicController {
+public class CourseController {
 	
 	@Autowired
-	TopicService topicService;
+	CourseService courseService;
 	
-	@GetMapping("/topic")
-	public List<Topic> getAllTopic() {
-		return topicService.getAllTopic();
+	@GetMapping("/course")
+	public List<Course> getAllCourses() {
+		return courseService.getAllCourse();
 	}
 	
-	@GetMapping("/topic/{id}")
-	public  Topic   getTopic(@PathVariable String id) {
-		return topicService.getTopic(id);
+	@GetMapping("/course/{id}")
+	public  Course   getCourse(@PathVariable String id) {
+		return courseService.getCourse(id);
 	}
 	
 	@PostMapping("/topic")

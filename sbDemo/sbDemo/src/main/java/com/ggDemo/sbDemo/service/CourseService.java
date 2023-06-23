@@ -6,29 +6,30 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.ggDemo.sbDemo.entity.Course;
 import com.ggDemo.sbDemo.entity.Topic;
 
 @Service
-public class TopicService {
-	List<Topic> topicList= new ArrayList(Arrays.asList(
-			new Topic("128","manish","Student",34),
-			new Topic("129","Sahni","Student",39),
-			new Topic("1230","Abcd","Student",40)));
+public class CourseService {
+	List<Course>  courseList= new ArrayList(Arrays.asList(
+			new Course("128","manish","Student",34),
+			new Course("129","Sahni","Student",39),
+			new Course("1230","Abcd","Student",40)));
 
-	public List<Topic> getAllTopic() {
-		return topicList;
+	public List<Course> getAllCourse() {
+		return courseList;
 
 
 	}
 
-	public Topic getTopic(String id) {
-		Topic topic = new Topic();
-		for(int i = 0 ; i<topicList.size();i++) {
-			if(topicList.get(i).getId().equals(id)) {
-				return topicList.get(i);
+	public Course getTopic(String id) {
+		Course course = new Course();
+		for(int i = 0 ; i<courseList.size();i++) {
+			if(courseList.get(i).getId().equals(id)) {
+				return courseList.get(i);
 			}
 		}
-		return topic;
+		return course;
 	}
 
 	public void addTopic(Topic topic) {
