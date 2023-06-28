@@ -1,36 +1,52 @@
 package com.gg.jpaDemo.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 //each instance of this topic class should go as row of table
 @Entity
+@Table(name = "topic007")
 public class Topic {
 	@Id
-	private String id; 
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id; 
 
+	
+	@Column(name = "tname")
 	private String name; 
 
+	@Column(nullable = false)
 	private String description;
 
 	private int age;
 	
+	@Column(name = "aadharNumber", unique = true,length = 12)
+	private int aadhar;
+	
+	@Transient
+	private  String debugString;
 	public Topic() {
-		
+
 	}
 
 
-	public Topic(String id, String name, String description, int age) {
+	public Topic(int id, String name, String description, int age,int aadhar) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.age = age;
+		this.aadhar= aadhar;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -42,13 +58,16 @@ public class Topic {
 		this.name = name;
 	}
 
-	public String getDesc() {
+
+	public String getDescription() {
 		return description;
 	}
 
-	public void setDesc(String description) {
+
+	public void setDescription(String description) {
 		this.description = description;
 	}
+
 
 	public int getAge() {
 		return age;
@@ -56,7 +75,17 @@ public class Topic {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+
+	public int getAadhar() {
+		return aadhar;
+	}
+
+
+	public void setAadhar(int aadhar) {
+		this.aadhar = aadhar;
 	} 
-	
-	
+
+
 }
