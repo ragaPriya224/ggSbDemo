@@ -1,32 +1,29 @@
 package com.gg.jpaDemo.entity;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-//each instance of this topic class should go as row of table
+import jakarta.persistence.ManyToOne;
+
 @Entity
-public class Topic {
+public class Course {
 	@Id
 	private String id; 
-	
+
 	private String name; 
 
 	private String description;
-
-	private int age;
 	
-	public Topic() {
-
+	@ManyToOne
+	private Topic topic;
+	public Course() {
+		
 	}
 
-
-	public Topic(String id, String name, String description,int age) {
+	public Course(String id, String name, String description,String topicId) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
-		this.age = age;
-//		this.aadhar= aadhar;
+		this.topic = new Topic(topicId,"","",0);
 	}
 
 	public String getId() {
@@ -45,6 +42,14 @@ public class Topic {
 		this.name = name;
 	}
 
+	public String getDesc() {
+		return description;
+	}
+
+	public void setDesc(String description) {
+		this.description = description;
+	}
+
 
 	public String getDescription() {
 		return description;
@@ -56,23 +61,15 @@ public class Topic {
 	}
 
 
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
+	public Topic getTopic() {
+		return topic;
 	}
 
 
-//	public int getAadhar() {
-//		return aadhar;
-//	}
-//
-//
-//	public void setAadhar(int aadhar) {
-//		this.aadhar = aadhar;
-//	} 
+	public void setTopic(Topic topic) {
+		this.topic = topic;
+	}
 
-
+	
+	
 }
