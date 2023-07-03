@@ -6,6 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 //each instance of this topic class should go as row of table
 @Entity
+@Table(name="topics")
 public class Topic {
 	@Id
 	private String id; 
